@@ -497,6 +497,16 @@ main {
     border-color: transparent;
   }
 
+  .skill-group {
+    background: rgba(22, 24, 30, 0.9);
+    border-color: rgba(245, 246, 248, 0.08);
+    color: var(--ink);
+  }
+
+  .skill-group h5 {
+    color: #d7dbe6;
+  }
+
   .timeline-item {
     background: rgba(18, 20, 26, 0.7);
   }
