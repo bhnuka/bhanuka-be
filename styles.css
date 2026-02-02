@@ -320,6 +320,23 @@ main {
   font-size: 1.25rem;
 }
 
+.project-title-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.project-title-link::after {
+  content: "↗";
+  font-size: 0.9rem;
+  color: var(--muted);
+  transition: transform 0.2s ease;
+}
+
+.project-title-link:hover::after {
+  transform: translate(2px, -2px);
+}
+
 .card .meta {
   color: var(--muted);
   font-weight: 500;
