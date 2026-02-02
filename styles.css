@@ -379,8 +379,12 @@ main {
   width: calc(100% + 44px);
   border-bottom: 1px solid rgba(15, 17, 21, 0.08);
   position: relative;
-  cursor: zoom-in;
   text-align: left;
+}
+
+.project-card .project-media button,
+.project-card .project-media[role="button"] {
+  cursor: zoom-in;
 }
 
 .project-card .project-media img {
@@ -389,6 +393,13 @@ main {
   object-fit: cover;
   display: block;
   border-radius: calc(var(--radius) - 2px) calc(var(--radius) - 2px) 0 0;
+}
+
+.project-card--contain .project-media img {
+  height: auto;
+  max-height: 360px;
+  object-fit: contain;
+  background: rgba(15, 17, 21, 0.08);
 }
 
 .project-card .project-media-label {

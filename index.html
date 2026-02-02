@@ -188,6 +188,60 @@
         </div>
       </section>
 
+      <section class="section" id="experience">
+        <div class="section-header">
+          <h3>Experience</h3>
+          <p>Customer-facing engineering with a deep focus on automation and analytics</p>
+        </div>
+        <article class="card highlight reveal">
+          <div class="experience-media">
+            <img src="assets/work/bosch.png" alt="Bhanuka at Bosch internship" />
+          </div>
+          <div class="exp-header">
+            <div>
+              <h4>Robert Bosch (South East Asia)</h4>
+              <p class="meta">AIoT Software Developer Intern</p>
+            </div>
+            <span class="date">Jun 2025 - Dec 2025</span>
+          </div>
+          <ul>
+            <li>
+              Built and shipped customer-facing Angular and React frontends integrated with Spring Boot and Python
+              backends. Implemented responsive layouts, role-based authentication and API-driven state management with
+              100% E2E and unit test coverage
+            </li>
+            <li>
+              Implemented Grafana and Infinity dashboards for Keycloak, with parameterized variables, data
+              transformations and reusable JSON panel definitions. Produced SOPs enabling cross-team reuse and faster
+              RCA
+            </li>
+            <li>
+              Set up Playwright E2E across multiple apps and integrated runs into Azure DevOps with Monocart HTML
+              reports and JUnit artifacts. Enabled auto-gated merges in SIT and reduced manual QA
+            </li>
+            <li>
+              Designed a natural-language SQL analytics workflow using LangChain and Bedrock Converse with schema-aware
+              context injection, SQL guardrails and a chartability gate to avoid heavy payloads when visuals were not
+              needed
+            </li>
+            <li>
+              Transitioned the natural-language SQL into a multimodal system and tuned ClickHouse for large queries.
+              Right-sized mark cache, validated spill settings, set concurrency limits and scoped projections to reduce
+              query times by 50%
+            </li>
+            <li>
+              Built a multi-pipeline Azure DevOps setup from scratch. Authored reusable templates, configured automatic
+              triggers, ran builds on SL4 agents and Azure, executed tests and published Docker images to Azure
+              registries and AWS Lightsail
+            </li>
+            <li>
+              Deployed and operated containerized services on AWS Lightsail, configuring service ports/health checks,
+              environment variables and release workflows to support reliable deployments
+            </li>
+          </ul>
+        </article>
+      </section>
+
       <section class="section" id="projects">
         <div class="section-header">
           <h3>Projects</h3>
@@ -295,58 +349,28 @@
         </div>
       </section>
 
-      <section class="section" id="experience">
+      <section class="section" id="current">
         <div class="section-header">
-          <h3>Experience</h3>
-          <p>Customer-facing engineering with a deep focus on automation and analytics</p>
+          <h3>Currently Working On</h3>
+          <p>Exploring automation and data collection for real-world job searching</p>
         </div>
-        <article class="card highlight reveal">
-          <div class="experience-media">
-            <img src="assets/work/bosch.png" alt="Bhanuka at Bosch internship" />
-          </div>
-          <div class="exp-header">
-            <div>
-              <h4>Robert Bosch (South East Asia)</h4>
-              <p class="meta">AIoT Software Developer Intern</p>
+        <div class="cards">
+          <article class="card reveal project-card project-card--contain">
+            <div class="project-media">
+              <img src="assets/projects/road2work.png" alt="Road2Work project screenshot" />
             </div>
-            <span class="date">Jun 2025 - Dec 2025</span>
-          </div>
-          <ul>
-            <li>
-              Built and shipped customer-facing Angular and React frontends integrated with Spring Boot and Python
-              backends. Implemented responsive layouts, role-based authentication and API-driven state management with
-              100% E2E and unit test coverage
-            </li>
-            <li>
-              Implemented Grafana and Infinity dashboards for Keycloak, with parameterized variables, data
-              transformations and reusable JSON panel definitions. Produced SOPs enabling cross-team reuse and faster
-              RCA
-            </li>
-            <li>
-              Set up Playwright E2E across multiple apps and integrated runs into Azure DevOps with Monocart HTML
-              reports and JUnit artifacts. Enabled auto-gated merges in SIT and reduced manual QA
-            </li>
-            <li>
-              Designed a natural-language SQL analytics workflow using LangChain and Bedrock Converse with schema-aware
-              context injection, SQL guardrails and a chartability gate to avoid heavy payloads when visuals were not
-              needed
-            </li>
-            <li>
-              Transitioned the natural-language SQL into a multimodal system and tuned ClickHouse for large queries.
-              Right-sized mark cache, validated spill settings, set concurrency limits and scoped projections to reduce
-              query times by 50%
-            </li>
-            <li>
-              Built a multi-pipeline Azure DevOps setup from scratch. Authored reusable templates, configured automatic
-              triggers, ran builds on SL4 agents and Azure, executed tests and published Docker images to Azure
-              registries and AWS Lightsail
-            </li>
-            <li>
-              Deployed and operated containerized services on AWS Lightsail, configuring service ports/health checks,
-              environment variables and release workflows to support reliable deployments
-            </li>
-          </ul>
-        </article>
+            <h4>
+              <a class="project-title-link" href="https://github.com/bhnuka/road2job" target="_blank" rel="noreferrer">
+                Road2Work
+              </a>
+            </h4>
+            <p class="meta">Python Web Scraper</p>
+            <p>
+              Scrapes job-posting websites and consolidates results into a Google Sheet to simplify tracking and
+              filtering.
+            </p>
+          </article>
+        </div>
       </section>
     </main>
 
