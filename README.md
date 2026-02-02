@@ -1,4 +1,4 @@
-# Bhanuka Bandara Ekanayake � Resume Site
+# Bhanuka Bandara Ekanayake Resume Site
 
 Static single-page resume/portfolio website built with HTML, CSS, and vanilla JavaScript. Designed as a clean, animated resume with a downloadable PDF and contact links.
 
