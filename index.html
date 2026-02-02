@@ -142,6 +142,25 @@
           <p>Selected work that blends engineering rigor with practical impact</p>
         </div>
         <div class="cards">
+          <article class="card reveal project-card">
+            <button
+              class="project-media"
+              type="button"
+              data-lightbox="assets/projects/shoppulse.png"
+              data-caption="ShopPulse analytics dashboard"
+              aria-label="Expand ShopPulse screenshot"
+            >
+              <img src="assets/projects/shoppulse.png" alt="ShopPulse web app dashboard screenshot" />
+              <span class="project-media-label">Click to expand</span>
+            </button>
+            <h4>ShopPulse</h4>
+            <p class="meta">Full-stack Developer</p>
+            <p class="date">Sep 2025 - Dec 2025</p>
+            <p>
+              Built a retail analytics web app that tracks product performance, inventory health, and revenue trends
+              with role-based dashboards and real-time insights
+            </p>
+          </article>
           <article class="card reveal">
             <h4>Virtual Vault</h4>
             <p class="meta">QA Engineer</p>
@@ -234,6 +253,15 @@
         </a>
       </div>
     </footer>
+
+    <div class="lightbox" aria-hidden="true">
+      <div class="lightbox-backdrop" data-lightbox-close></div>
+      <figure class="lightbox-content" role="dialog" aria-modal="true" aria-label="Project image preview">
+        <img class="lightbox-image" src="" alt="" />
+        <figcaption class="lightbox-caption"></figcaption>
+        <button class="lightbox-close" type="button" data-lightbox-close>Close</button>
+      </figure>
+    </div>
 
     <script src="script.js"></script>
   </body>
